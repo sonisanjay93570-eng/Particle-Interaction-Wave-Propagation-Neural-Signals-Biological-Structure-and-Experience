@@ -438,4 +438,45 @@ Particle Interaction, Atoms, Electrons, Protons, Neutrons, Molecular Interaction
 
 ---
 
- 
+ ## VERSION HISTORY - V.10 & V.11 (Combined for README)
+
+### V.10 - Conceptual Framework (Published - DOI: 10.5281/zenodo.22097606)
+> This work presents a conceptual framework titled Particle Interaction, Wave Propagation, Neural Signals, Biological Structure, and Experience (V.10). The model proposes a 5-stage hierarchy: Particle Interaction → Wave Propagation → Neural Signals → Biological Structure → Experience. A functional relationship C = f(S, P, B) is proposed where C=Consciousness, S=Signal Intensity, P=Pattern Processing, B=Biological State. The model aligns with embodied cognition and neural signaling principles, and uses wave propagation (like BZ reaction waves) as an analogy for information transfer in neural tissue.
+
+**5-Stage Model:**
+1. Particle Interaction
+2. Wave Propagation
+3. Neural Signals
+4. Biological Structure
+5. Experience / Consciousness
+
+**Core Equation V.10:**
+C = f(S, P, B)
+
+---
+
+### V.11 - Validation Update (Experimental Method Added)
+
+#### 1. Operational Definitions (V.11)
+- S (Signal Intensity): Gabor contrast + EEG amplitude
+- P (Pattern Processing): Learning score + prior exposure
+- B (Biological State): HRV, Sleep, VAS
+- C (Experience): RT, Accuracy, Confidence
+
+#### 2. Hypotheses
+- H1: Same S, B change (Rested vs Deprived) → C change
+- H2: Same S,B, P high → C better
+- H3: EEG traveling wave velocity correlates with C latency
+
+#### 3. Experimental Protocol
+Experiment A (In Silico): Particle → Wave → 1000 LIF neurons (Brian2)
+Experiment B (Human N=30): 2x2 design B x P, S controlled, 240 trials
+Experiment C (Wave): MNE-Python traveling wave analysis
+
+#### 4. Analysis & Falsifiability
+Analysis: C_RT ~ S + B + P + (1|Subject), p<0.05
+Falsified if: B has no effect on C in 2 samples OR no wave in >50% subjects
+
+#### 5. Citation
+V.10: https://doi.org/10.5281/zenodo.22097606
+V.11: New DOI auto-generated on GitHub Release V.11
